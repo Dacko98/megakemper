@@ -1,0 +1,33 @@
+@import './variables';
+
+
+#reg {
+	.registration {
+
+		&__btn {
+			display: flex;
+			justify-content: center;
+		}
+
+		&__radio {
+			margin-bottom: 0;
+			margin-top: 10px;
+			justify-content: center;
+			display: flex;
+		}
+
+		&__first-time {
+			label {
+				margin-bottom: 15px;
+			}
+		}
+
+	@media($mdUp) {
+		&__first-time {
+			label {
+				margin-left: 40px;
+			}
+		}
+	}
+}
+}

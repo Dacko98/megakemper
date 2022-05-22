@@ -5,7 +5,6 @@ import logo from "../assets/logo.png";
 
 
 const Navbar = (props) => {
-	console.log(props);
 	const [click, setClick] = useState(false)
 	const handleClick = () => setClick(!click)
 

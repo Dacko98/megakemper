@@ -11,10 +11,6 @@
 	overflow: hidden;
 	background-color: transparent;
 
-	&--color {
-		background-color: rgba(0, 0, 0, .9); //TODO
-	}
-
 	&__navbar {
 		display: flex;
 		justify-content: start;
@@ -130,7 +126,11 @@
 		margin: 0.5rem 0;
 	}
 
-	@media ($mdUp) {
+	@media ($lgUp) {
+
+		&--color {
+		background-color: rgba(0, 0, 0, .9); //TODO
+	}
 		&__nav-item {
 			margin: 1.5rem 0;
 		}
